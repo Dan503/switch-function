@@ -1,5 +1,5 @@
 
-export default function switchFn(testCase = 'default', possibilities = {}){
+module.exports = function switchFn(testCase = 'default', possibilities = {}){
 	if (!possibilities[testCase]) {
 		if (possibilities.default) {
 			return possibilities.default()
