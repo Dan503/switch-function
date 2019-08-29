@@ -1,0 +1,25 @@
+{
+  "name": "switch-function",
+  "version": "1.0.0",
+  "description": "Switch functionality with a nicer syntax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan503/switch-function.git"
+  },
+  "keywords": [
+    "switch",
+    "javascript",
+    "js",
+    "es6"
+  ],
+  "author": "Daniel Tonon <dan503.npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dan503/switch-function/issues"
+  },
+  "homepage": "https://github.com/Dan503/switch-function#readme"
+}
