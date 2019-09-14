@@ -1,5 +1,5 @@
 
-module.exports = function switchFn(testCase = 'default', possibilities = {}){
+module.exports = function Switch(testCase = 'default', possibilities = {}){
 
 	const testCaseFound = typeof possibilities[testCase] !== 'undefined'
 	const defaultIsSet = typeof possibilities.default !== 'undefined'
