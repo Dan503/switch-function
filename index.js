@@ -6,7 +6,7 @@ module.exports = function Switch(testCase = 'default', possibilities = {}){
 
 	if (!testCaseFound && !defaultIsSet){
 		console.error('possibilities', possibilities)
-		throw Error(`Test case "${testCase}" could not be found in the possibilities object (second parameter) and no default was defined`)
+		throw Error(`Test case "${testCase}" in switch-function could not be found in the possibilities object (second parameter) and no default was defined`)
 	}
 
 	const usingDefault = !testCaseFound && defaultIsSet
