@@ -13,7 +13,11 @@ module.exports = function Switch(testCase = 'default', possibilities = {}){
 
 	const testSubject = usingDefault ? 'default' : testCase
 
-	const isFn = typeof possibilities[testSubject] === 'function'
+	const selection = possibilities[testSubject]
 
-	return isFn ? possibilities[testSubject]() : possibilities[testSubject]
+	const isFn = typeof selection === 'function'
+
+	const calledFn = isFn ? selection : () => selection
+
+	return calledFn()
 }
