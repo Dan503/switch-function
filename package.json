@@ -1,6 +1,6 @@
 {
   "name": "switch-function",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Switch functionality with a nicer syntax.",
   "main": "index.js",
   "scripts": {
