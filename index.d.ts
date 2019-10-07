@@ -4,4 +4,4 @@ interface Possibilities {
 	default?: any;
 }
 
-export default function Switch(testCase:string|number, possibilities:Possibilities): any;
+export default function Switch(testCase:string|number|undefined, possibilities:Possibilities): any;
